@@ -1,0 +1,20 @@
+{
+	"name": "kiwitech/hello-world",
+	"description":"This is first php package",
+	"license": "Kiwitech",
+    "authors": [
+        {
+            "name": "Prashant Singh",
+            "email": "prashant.singh@kiwitech.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kiwitech\\hello-world\\": "src/"
+        }
+    }
+}
